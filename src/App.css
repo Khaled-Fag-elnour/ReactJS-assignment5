@@ -1,0 +1,90 @@
+
+.home {
+  background-color: #111;
+}
+.student-box {
+  position: relative;
+  display: flex;
+  text-decoration: none !important;
+  color: inherit !important;
+  padding: 25px 20px;
+  margin-bottom: 45px;
+  border-radius: 8px;
+  min-height: 150px;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  transition: all 0.35s;
+}
+
+.student-box:hover {
+  transform: translateY(-15px);
+}
+
+.student-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(100deg, #AA076B, #61045F);
+}
+.student-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(100deg, #AA076B, #61045F);
+  filter: blur(10px);
+}
+.students-list .col-md-4:nth-child(even) .student-box::before,
+.students-list .col-md-4:nth-child(even) .student-box::after {
+  background-image: linear-gradient(100deg, #314755, #26a0da) !important;
+}
+.student-box span {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 5;
+}
+.student-box span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.1);
+}
+.student-box .content {
+  position: relative;
+  z-index: 10;
+}
+
+
+.student-details-sec {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.student-details {
+  padding: 40px 20px;
+  border: 1px solid #efefef;
+  background-color: #fff;
+}
+
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not-found h4 span {
+  font-size: 48px;
+}

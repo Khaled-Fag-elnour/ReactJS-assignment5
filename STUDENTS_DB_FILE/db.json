@@ -1,0 +1,40 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "name": "Khaled Hassan",
+      "age": 23,
+      "phone": "01096834494"
+    },
+    {
+      "id": 2,
+      "name": "Mohab Medhat",
+      "age": 24,
+      "phone": "01012345648"
+    },
+    {
+      "id": 3,
+      "name": "Yasmine Amr",
+      "age": 21,
+      "phone": "01023469748"
+    },
+    {
+      "id": 4,
+      "name": "Sherif Sabry",
+      "age": 26,
+      "phone": "01135481347"
+    },
+    {
+      "id": 5,
+      "name": "Mohamed Abdelghany",
+      "age": 23,
+      "phone": "01053158461"
+    },
+    {
+      "name": "testing",
+      "age": "45",
+      "phone": "01062117782",
+      "id": 6
+    }
+  ]
+}
